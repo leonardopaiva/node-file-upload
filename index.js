@@ -28,7 +28,7 @@ http.createServer(function(req, res) {
       }
 
       var dirToSave = path.join(__dirname + '/tmp/');
-//teste
+//teste asd
       if (!fs.existsSync(dirToSave)) {
         fs.mkdirSync(dirToSave);
       }
